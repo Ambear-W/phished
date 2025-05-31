@@ -20,12 +20,21 @@
   padding: 1rem;
 }
 
+@media (prefers-color-scheme: dark) {
+  .fish-container.adaptive {
+    background: #753;
+    color: rgb(231, 231, 231);
+    outline: 5px dashed #000;
+  }
+}
+
 .fish-text {
   font-size: 3rem;
   font-weight: bold;
   position: relative;
   z-index: 1; /* Ensure text is on top */
 }
+
 
 .fish-icon {
   position: absolute;
@@ -35,6 +44,13 @@
   width: 25%;
   z-index: 0; /* Behind the text slightly */
 }
+
+@media (prefers-color-scheme: dark) {
+  .fish-icon.adaptive {
+    right: -110px;
+  }
+
+
 
 @keyframes logo-spin {
   from {
