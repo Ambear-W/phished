@@ -24,7 +24,7 @@
   .fish-container.adaptive {
     background: #753;
     color: rgb(231, 231, 231);
-    outline: 5px dashed #000;
+    outline: 0.2em dashed #000;
   }
 }
 
@@ -38,18 +38,13 @@
 
 .fish-icon {
   position: absolute;
-  right: -87px; /* Moves the fish to overlap the text */
+  /* right: -3em; /* Moves the fish to overlap the text */
+  right: -25%;
   top: 50%;
-  transform: translateY(-50%);
-  width: 25%;
+  transform: translateY(-45%);
+  width: 30%;
   z-index: 0; /* Behind the text slightly */
 }
-
-@media (prefers-color-scheme: dark) {
-  .fish-icon.adaptive {
-    right: -110px;
-  }
-
 
 
 @keyframes logo-spin {
