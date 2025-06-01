@@ -11,25 +11,29 @@
   will-change: filter;
   transition: filter 300ms;
 }
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
 .fish-container {
   position: relative;
   display: inline-block;
   font-family: sans-serif;
-  font-size: 2rem;
+  font-size: 2.5rem;
   padding: 1rem;
 }
 
 @media (prefers-color-scheme: dark) {
   .fish-container.adaptive {
-    background: #753;
-    color: rgb(231, 231, 231);
-    outline: 0.2em dashed #000;
+    text-shadow: -2px -2px 0 #242424, 2px -2px 0 #242424, -2px 2px 0 #242424, 2px 2px 0 #242424;
   }
 }
 
 .fish-text {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: bold;
   position: relative;
   z-index: 1; /* Ensure text is on top */
@@ -38,12 +42,20 @@
 
 .fish-icon {
   position: absolute;
-  /* right: -3em; /* Moves the fish to overlap the text */
-  right: -25%;
+  right: -22%;
   top: 50%;
   transform: translateY(-45%);
-  width: 30%;
+  max-width: 30%;
+  width: auto;
   z-index: 0; /* Behind the text slightly */
+}
+
+@media (max-width:780px){
+  .fish-icon {
+    right: -10%;
+    top: 25%;
+    max-width: 45%;
+  }
 }
 
 
@@ -68,4 +80,8 @@
 
 .read-the-docs {
   color: #888;
+}
+
+p {
+  font-size: 1.5em;
 }
