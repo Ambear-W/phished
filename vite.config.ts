@@ -15,7 +15,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        unsub: resolve(__dirname, 'unsubscribe.html'),
+        unsubscribe: resolve(__dirname, 'unsubscribe.html'),
       },
     },
   },
