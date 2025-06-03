@@ -17,6 +17,13 @@ function home() {
       </div>
       <img className="meetingImg" src={ meeting } alt="Group of friends talking" />
     </div>
+
+    <div className="center">
+        <h2>The NEW way of finding the time for all the things you gotta do</h2>
+        <div>
+            We are currently in the testing phase, but we'll keep you updated!
+        </div>
+    </div>
     </>
   );
 }
