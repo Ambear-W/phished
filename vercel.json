@@ -1,7 +1,7 @@
 {
     "rewrites": [
       { "source": "/unsubscribe", "destination": "/unsubscribe.html" },
-      { "source": "/kevin", "destination": "/schedule.html"}
+      { "source": "/meet/kevin-bradon-qb2f", "destination": "/schedule.html"}
     ]
   }
   
