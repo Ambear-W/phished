@@ -15,7 +15,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         // main: resolve(__dirname, 'index.html'),
-        main: resolve(__dirname, 'home.html'),
+        main: resolve(__dirname, 'index.html'),
         unsubscribe: resolve(__dirname, 'unsubscribe.html'),
         schedule: resolve(__dirname, 'schedule.html')
       },
