@@ -1,7 +1,7 @@
 {
     "rewrites": [
       { "source": "/unsubscribe", "destination": "/unsubscribe.html" },
-      { "source": "/Kevin", "destination": "/schedule.html"}
+      { "source": "/kevin", "destination": "/schedule.html"}
     ]
   }
   
