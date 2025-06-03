@@ -1,7 +1,7 @@
 {
     "rewrites": [
       { "source": "/unsubscribe", "destination": "/unsubscribe.html" },
-      { "source": "/Kevin_Bradon_2025_June_Sync", "destination": "/schedule.html"}
+      { "source": "/Kevin", "destination": "/schedule.html"}
     ]
   }
   
