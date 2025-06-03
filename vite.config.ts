@@ -16,6 +16,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         unsubscribe: resolve(__dirname, 'unsubscribe.html'),
+        schedule: resolve(__dirname, 'schedule.html')
       },
     },
   },
