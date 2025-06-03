@@ -23,16 +23,62 @@ a:hover {
 }
 
 body {
-  margin: 0;
   display: flex;
-  place-items: center;
-  min-width: 320px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;        
   min-height: 100vh;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+.navBar {
+  padding: .5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: inherit;
+  background-color: whitesmoke;
+}
+
+.navBarImg{
+  max-width: 5%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  height: 100%;
+  align-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2em;
+  /* max-height: 3em; */
+}
+
+@media (max-width:913px) {
+  .header{
+    flex-direction: column;
+  }
+}
+
+.headerLeft{
+  min-width: 50%;
+}
+
+@media (max-width:913px) {
+  .headerLeft{
+    text-align: center;
+  }
+}
+
+.meetingImg {
+  min-width: 20%;
+  max-width: 80%;
 }
 
 button {

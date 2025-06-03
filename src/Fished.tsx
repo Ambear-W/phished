@@ -10,7 +10,7 @@ function Fished() {
         <img className="fish-icon adaptive" src={fish} alt="Fish" />
       </div>
       <p>
-        Uh oh! You clicked a link you were supposed to! Lucky for you that this isn't the real deal! But if it was, what would have happened? Well, you might not notice it right away,
+        Uh oh! You clicked a link you were not supposed to! Lucky for you that this isn't the real deal! But if it was, what would have happened? Well, you might not notice it right away,
         but you would have given us your log in details!
         <br />
         <br />
