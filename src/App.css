@@ -50,8 +50,20 @@
   z-index: 0; /* Behind the text slightly */
 }
 
-.sso{
+.sso {
   width: 50%;
+}
+
+.sideRight {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 3em;
+}
+
+.sideImg {
+  width: 60%;
+  padding: 2em;
 }
 
 @media (max-width:780px){
