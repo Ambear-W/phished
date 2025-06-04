@@ -21,33 +21,51 @@ function Fished() {
           So what would have happened?
         </p>
       </div>
+
+      <br />
       <br />
       <hr />
       <br />
+      <br />
+
       <div>
-        <p>
+        <h2>How we Stole your Login</h2>
+        <p className='pad'>
           At Georgia Tech, Single Sign-on is used so users do not have to repeatedly log into campus applications. As adversaries, we can leverage this by designing our phishing flow to mimic the SSO experience.
           This makes it appear as though users need to login pior to scheduling their meeting. Since this is not atypical, they are less likely to question the legitimacy of the SSO page.
         </p>
         <img className="sso" src={ sso } alt="Georgia Tech's SSO login page" />
-        <p>
+        <p className='pad'>
           While the users "signs in", on the backend we are stealing their username and password. This can be done with the SEToolkit that uses a tunner to open the localhost connection to recevie the credientials by using
           nrgrok, which is a port fowarding tool.
         </p>
+
         <div className='sideRight'>
           <p>
             Here, we can see the nrgrok tool running.
           </p>
           <img className='sideImg' src={ nrgrok } alt="Nrgrok running on a terminal" />
         </div>
-        <br />
-        <hr />
-        <br />
+
         <div className='sideRight'>
           <p>
             Here, we can see the SEToolKit running. This is where we can also see the tested username and password.
           </p>
           <img className='sideImg' src={ setool } alt="SEToolKit running, the username and password have been highlighted" />
+        </div>
+      </div>
+      
+      <br />
+      <br />
+      <hr />
+      <br />
+      <br />
+
+      <div>
+        <h2>But I have 2FA!</h2>
+
+        <div>
+          Good job! This is a great way to protect your account!
         </div>
       </div>
     </div>
