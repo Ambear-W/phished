@@ -50,6 +50,10 @@
   z-index: 0; /* Behind the text slightly */
 }
 
+.sso{
+  width: 50%;
+}
+
 @media (max-width:780px){
   .fish-icon {
     right: -10%;
@@ -84,4 +88,10 @@
 
 p {
   font-size: 1.5em;
+}
+
+hr {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
