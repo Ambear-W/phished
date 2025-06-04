@@ -62,10 +62,25 @@ function Fished() {
       <br />
 
       <div>
-        <h2>But I have 2FA!</h2>
+        <h2>But I have Two Factor Authenication!</h2>
 
         <div>
-          Good job! This is a great way to protect your account!
+          <p>
+            Good job! This is a great way to protect your account!
+            <br />
+            <br />
+            However, there are times where someone can get pass these. Here, we focus on using a "Man-in-the-Middle" attack.
+            <br />
+            <br />
+            Here, we are letting StingSync be the middle man. Since the user goes through the SSO page and gives us their login credientials, we are able to then
+            send it to Passport where the user will get a notifcation on their phone and while we send the code back to StingSync to show on screen.
+            <br />
+            <br />
+            From there, the user enters the code into their phone and then we are in!
+            <br />
+            <br />
+            Now we are able to add our own two factor authenication and move into other Georgia Tech systems.
+          </p>
         </div>
       </div>
     </div>
